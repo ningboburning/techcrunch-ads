@@ -74,7 +74,7 @@
 			$node_pic 	= $newDom->importNode( $filtered_pic->item($i-1), true );    
 			$node_intr 	= $newDom->importNode( $myItem, true );    
 			$newDom->appendChild($node_title);                    
-			$newDom->appendChild($node_pic);                    
+			//$newDom->appendChild($node_pic);                    
 			$newDom->appendChild($node_intr);                    
 		}
 		$html = $newDom->saveHTML();
